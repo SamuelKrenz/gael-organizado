@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#103f31">
+  <title>GAEL · Meu mundo de letras</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/village-theme.css">
+  <script defer src="js/vila.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-content">
+      <button class="brand" id="homeBtn" aria-label="GAEL, voltar à vila">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span>GAEL<span class="sub">Meu mundo de letras</span></span>
+      </button>
+      <button class="btn" id="settingsBtn">Ajustes</button>
+    </div>
+  </header>
+  <div class="wrap">
+    <main id="app"></main>
+    <footer class="footer">GAEL · Aprender no próprio ritmo</footer>
+  </div>
+  <dialog id="comfort" aria-labelledby="comfortTitle"></dialog>
+  <div aria-live="polite" id="live" role="status"></div>
+</body>
+</html>
